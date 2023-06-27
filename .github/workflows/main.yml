@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
   push:
     branches:
-        - development
-        
+      - main
+
 jobs:
   publish-gpr:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
