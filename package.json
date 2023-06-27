@@ -4,6 +4,7 @@
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/@nikiskaarup"
 	},
+	"repository": "git@github.com:nikiskaarup/fuzzy-octo-fishstick",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
