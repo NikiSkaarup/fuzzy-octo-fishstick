@@ -1,4 +1,9 @@
 // Reexport your entry components here
 
-export * as Box from '$lib/box.svelte';
+import Box from '$lib/box.svelte';
+
+export const ui = {
+    Box
+}
+
 export * from '$lib/hello';
