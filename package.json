@@ -1,6 +1,6 @@
 {
 	"name": "@nikiskaarup/fuzzy-octo-fishstick",
-	"version": "0.0.1",
+	"version": "0.0.1-1",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/@nikiskaarup"
 	},
