@@ -1,4 +1,4 @@
 // Reexport your entry components here
 
-export * from '$lib/box.svelte';
+export * as Box from '$lib/box.svelte';
 export * from '$lib/hello';
