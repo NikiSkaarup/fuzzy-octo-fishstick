@@ -1,10 +1,6 @@
+import { json } from '@sveltejs/kit';
 
-/**
- * @type {import('@sveltejs/kit').RequestHandler}
- */
-export default (event) => {
-	return {
-		statusCode: 200,
-		body: { message: event.request.url }
-	};
+/** @type {import('@sveltejs/kit').RequestHandler} */
+export const hello = (event) => {
+	return json({ hello: 'world', url: event.request.url })
 };
