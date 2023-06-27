@@ -2,7 +2,7 @@
 
 import Box from '$lib/box.svelte';
 
-export const ui = {
+export const UI = {
     Box
 }
 
